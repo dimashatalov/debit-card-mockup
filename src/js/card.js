@@ -13,9 +13,7 @@ export default class Card extends DefaultClass {
         super();
 
         this.makeTemplate();
-
-        this.cardHolderName.setValue("Dmytro Shatalov");
-        this.cardExpiration.setValue("11/21");
+ 
     }
  
     makeTemplate() {
