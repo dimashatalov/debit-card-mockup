@@ -14,6 +14,7 @@ css and image take manually. Change CSS accordingly.
     import DebutCardMockup from "debit-card-mocukp";
 
     let card = new DebitCardMockup(document.getElementById("mockup-container"));
+    card.draw();
 
     card.cardNumber.setValue("0000000000000000"); // It will seperate numbers automaticly
     card.cardExpiration.setValue("11/30);
