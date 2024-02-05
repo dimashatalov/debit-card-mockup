@@ -19,7 +19,6 @@ export default class Card extends DefaultClass {
     makeTemplate() {
         this.node = document.createElement("div");
         this.node.classList.add("debit-card-mockup");
-        this.node.classList.add("debit-card-mockup--mastercard");
 
         this.cardNumber = new CardNumber();
         this.node.appendChild(this.cardNumber.node);
@@ -32,7 +31,12 @@ export default class Card extends DefaultClass {
             
     }
 
+    setType(type) {
+        this.addClassModificator(type);
+    }
+
     addClassModificator(mod) {
+        this.removeClassMofificators();
         this.node.classList.add("debit-card-mockup--" + mod);
     }
 

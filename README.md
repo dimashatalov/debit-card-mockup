@@ -20,4 +20,4 @@ css and image take manually. Change CSS accordingly.
     card.cardExpiration.card.setValue("11/30);
     card.cardHolderName.card.setValue("Will Brown");
 
-    card.addClassModoficator("mastercard");   // it will add debit-card-mockup--maskter card class. It will remove all other modificators automaticly.
+    card.setType("mastercard");   // it will add debit-card-mockup--maskter card class. It will remove all other modificators automaticly.

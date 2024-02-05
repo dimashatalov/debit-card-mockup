@@ -15,7 +15,7 @@
 </div>
 
 <script src="dist/debit-card-mockup.js?t=<?php echo time();?>"></script>
-<script src="dist/test.js"></script>
+<script src="dist/test.js?t=<?php echo time();?>"></script>
 
 <script>
 
